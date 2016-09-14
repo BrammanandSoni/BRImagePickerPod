@@ -22,10 +22,10 @@ pod "BRImagePicker"
 
 ## Initialize BRImagePicker
 
-BRImagePicker *imagePicker = [[BRImagePicker alloc] initWithPresentingController:self];
-[imagePicker showPickerWithDataBlock:^(NSArray *data) {
-    NSLog(@"Selected BR_ImageInfo = %@",data);
-}];
+    BRImagePicker *imagePicker = [[BRImagePicker alloc] initWithPresentingController:self];
+    [imagePicker showPickerWithDataBlock:^(NSArray *data) {
+        NSLog(@"Selected BR_ImageInfo = %@",data);
+    }];
 
 It will return an Array of "BR_ImageInfo" object, which is having "image" and "caption" property. BR_ImageInfo object have image property which will give you the image after cropping.
 
