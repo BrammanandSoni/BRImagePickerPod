@@ -1,0 +1,16 @@
+PODS:
+  - BRImagePicker (0.1.0)
+
+DEPENDENCIES:
+  - BRImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  BRImagePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BRImagePicker: 06ced6788594ef526f40734dc0c8dffc8f038a48
+
+PODFILE CHECKSUM: 6989fd170eaa9cba0610014a283bc497384d5439
+
+COCOAPODS: 1.0.1

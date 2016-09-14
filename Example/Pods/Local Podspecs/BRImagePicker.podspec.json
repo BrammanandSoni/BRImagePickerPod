@@ -1,0 +1,22 @@
+{
+  "name": "BRImagePicker",
+  "version": "0.1.0",
+  "summary": "A short description of BRImagePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BRImagePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BrammanandSoni": "bramm.soni12@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BRImagePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BRImagePicker/Classes/**/*"
+}

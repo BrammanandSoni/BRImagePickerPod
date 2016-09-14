@@ -1,0 +1,6 @@
+framework module BRImagePicker {
+  umbrella header "BRImagePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

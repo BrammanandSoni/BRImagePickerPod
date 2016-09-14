@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRImagePicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BRImagePicker.'
+  s.version          = '1.0.0'
+  s.summary          = 'Choose multiple images from gallery. You can perform Cropping on image and you can add Caption for each selected image.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BRImagePicker'
+  s.homepage         = 'https://github.com/BrammanandSoni/BRImagePickerPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BrammanandSoni' => 'bramm.soni12@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/BRImagePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BrammanandSoni/BRImagePickerPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
