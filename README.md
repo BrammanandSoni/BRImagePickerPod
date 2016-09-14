@@ -29,6 +29,8 @@ pod "BRImagePicker"
 
 It will return an Array of "BR_ImageInfo" object, which is having "image" and "caption" property. BR_ImageInfo object have image property which will give you the image after cropping.
 
+![giphy](http://media.giphy.com/media/3oEduUKMD2jjqSUQmY/giphy.gif)
+
 ## Author
 
 BrammanandSoni, bramm.soni12@gmail.com
