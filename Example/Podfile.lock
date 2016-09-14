@@ -1,5 +1,5 @@
 PODS:
-  - BRImagePicker (0.1.0)
+  - BRImagePicker (1.0.0)
 
 DEPENDENCIES:
   - BRImagePicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BRImagePicker: 06ced6788594ef526f40734dc0c8dffc8f038a48
+  BRImagePicker: 1546dc6c69fe8bb4b58ac2248c54d9bb6e0e4459
 
 PODFILE CHECKSUM: 6989fd170eaa9cba0610014a283bc497384d5439
 

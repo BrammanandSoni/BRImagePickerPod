@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BRImagePicker'
   s.version          = '1.0.0'
-  s.summary          = 'Choose multiple images from gallery. You can perform Cropping on image and you can add Caption for each selected image.'
+  s.summary          = 'Choose multiple images from gallery like whatsapp'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Choose multiple images from gallery. You can perform Cropping on image and you can add Caption for each selected image.
                        DESC
 
   s.homepage         = 'https://github.com/BrammanandSoni/BRImagePickerPod'
@@ -31,10 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'BRImagePicker/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BRImagePicker' => ['BRImagePicker/Assets/*.png']
-  # }
+
+  s.resource_bundles = {
+    'BRImagePicker' => ['BRImagePicker/Assets/**/*.png',
+                         'BRImagePicker/Assets/*.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
